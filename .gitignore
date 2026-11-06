@@ -1,0 +1,28 @@
+# secrets
+.env
+*.pem
+*.key
+
+# media you download or render never goes in the repo (licences belong to their owners)
+**/media/footage/
+**/media/images/*.jpg
+**/media/images/*.png
+**/media/voice/*.mp3
+**/media/bgm/
+**/media/sfx/
+**/media/raw/
+**/renders/
+**/assets/
+**/.hyperframes/
+**/snapshots/
+*.mp4
+*.mov
+*.mp3
+*.wav
+
+# tooling
+__pycache__/
+*.pyc
+.ruff_cache/
+.DS_Store
+node_modules/
