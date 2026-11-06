@@ -4,6 +4,7 @@ set -euo pipefail
 R="$(cd "$(dirname "$0")/.." && pwd)"; S=$1; F="$R/films/$S"
 [ -e "$F" ] && { echo "films/$S already exists"; exit 1; }
 [ -s "$R/engine/assets/gsap-3.14.2.min.js" ] || "$R/scripts/setup-assets.sh"
+mkdir -p "$R/films"
 cp -R "$R/templates/film" "$F"
 for p in film short thumbnail; do
   mkdir -p "$F/$p/assets/fonts" "$F/$p/assets/lib" "$F/$p/renders"
