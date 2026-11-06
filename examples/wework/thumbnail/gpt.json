@@ -1,0 +1,20 @@
+{
+ "word": "WEWORK",
+ "a": {
+  "photo": "i-neumann-2015.jpg",
+  "l1": "$47B",
+  "l2": "IPO?"
+ },
+ "b": {
+  "card": "c-s1-lease.png",
+  "strip": "$47.2 billion",
+  "photo": "i-neumann-2015b.jpg",
+  "label": "IN RENT IT HAD PROMISED TO PAY"
+ },
+ "c": {
+  "photo": "i-wework-ny.jpg",
+  "l1": "$47B.",
+  "l2": "$8B.",
+  "strike": true
+ }
+}
