@@ -102,17 +102,15 @@ inside the central 84% of the height. Before shipping a generated image, check:
 
 ## Default builder from 6 Nov 2026: gpt-image-2.5
 
-From 6 Nov 2026 the producer switched every film's set to `gpt-image-2.5`. `tools/thumbnails/gpt_thumbs.py` does the
-work:
+From 6 Nov 2026 the producer switched every film's set to `gpt-image-2.5`. `tools/thumbnails/gpt_thumbs.py <film>`
+does the work. It reads `<film>/thumbnail/gpt.json` (the giant word for A, the photo and two-line hook for A, the proof
+card plus the exact strip words and a photo for B, the photo and before/after lines for C), sends the real photo and
+document as references to the image edits endpoint (1536×1024, quality high, about one call every 6.5 s), retries once if
+output moderation blocks a job, and crops each result to `thumbnail/renders/<film>-thumb-{a,b,c}.jpg` (1280×720).
+Re-run one variant with `gpt_thumbs.py <film> b`.
 
-- `jobs` stages the real photos and document cards on the render VM and writes the job list (deployment, size
-  1536×1024, quality high).
-- Generation calls the image edits endpoint with those references.
-- `pull` deletes the old renders and crops each output to 1280×720.
-
-Afterwards, rewrite each `UPLOAD.md` thumbnail section with the photo and document credits. The per-film table in
-`FILMS` holds the giant word, the three photos, the proof card and the exact strip words; the A and C headline texts
-come from `thumbnail/spec.json`.
+Then write the `UPLOAD.md` thumbnail section with the photo and document credits, and say that the people and documents
+are redrawn by the model.
 
 Review every image before shipping:
 
