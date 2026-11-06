@@ -55,7 +55,7 @@ marker colour still derives from that light blue.
    Everything HyperFrames runs on the render VM. (Parallel renders and encodes froze a laptop once.)
 2. **Keys never leave the servers.** Run Azure calls where the keys already live (a server, a container, or a CI secret)
    and pipe scripts in over stdin, for example `docker exec -i <container> python - < tools/voice/azure_tts.py`. If you
-   must fetch a key, pipe it from `az cognitiveservices account keys list` over stdin; never write it to disk. Pexels is
+   must fetch a key, pipe it from the Azure CLI (`az ... account keys list`) over stdin; never write it to disk. Pexels is
    passed only as a header env var.
 3. **Never delete or stop the render VM** without a fresh, explicit yes from its owner. Hackyard's was deleted once by
    mistake.

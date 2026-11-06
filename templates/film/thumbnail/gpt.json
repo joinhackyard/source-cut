@@ -1,0 +1,4 @@
+{"word": "COMPANY",
+ "a": {"photo": "i-example.jpg", "l1": "Two or three", "l2": "words."},
+ "b": {"card": "c-example.png", "strip": "exact words from the card", "photo": "i-example.jpg"},
+ "c": {"photo": "i-example.jpg", "l1": "Before.", "l2": "After.", "strike": false}}

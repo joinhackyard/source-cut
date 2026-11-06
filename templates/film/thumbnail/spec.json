@@ -1,0 +1,6 @@
+{"variants": [
+ {"kind": "face", "photo": "media/images/i-example.jpg", "pos": "50% 30%", "shift": 300, "l1": "Two or three", "l2": "words.", "size": 160,
+  "card": {"png": "media/artifacts/c-example.png", "marks": [0], "at": "bl", "w": 520}},
+ {"kind": "card", "photo": "media/images/i-example.jpg", "l1": "Proof", "l2": "line.", "size": 100,
+  "card": {"png": "media/artifacts/c-example.png", "marks": [0], "at": "mr", "w": 500}},
+ {"kind": "face", "photo": "media/images/i-example.jpg", "l1": "Before.", "l2": "After.", "size": 140}]}

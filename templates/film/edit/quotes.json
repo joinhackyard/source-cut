@@ -1,0 +1,3 @@
+{"raw": "media/raw", "out": "media/footage", "words": "media/raw/words.jsonl",
+ "quotes": [["q-example", "VIDEOID-102-131", 12.40, 21.85]],
+ "bands": [["b-example", "VIDEOID-102-131", 0.0, 4.0]]}
