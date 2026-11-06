@@ -1,0 +1,11 @@
+{
+  "name": "source-cut",
+  "owner": { "name": "Hackyard", "url": "https://hackyard.org" },
+  "plugins": [
+    {
+      "name": "source-cut",
+      "source": "./",
+      "description": "The Source Cut documentary workflow as Claude Code skills."
+    }
+  ]
+}

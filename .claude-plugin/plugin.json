@@ -1,0 +1,10 @@
+{
+  "name": "source-cut",
+  "version": "0.1.0",
+  "description": "Make documentaries where every frame has a source: research, script, Azure narration, document cards with marker sweeps, archive quotes, a HyperFrames edit engine, VM rendering, A/B/C thumbnails and upload packages.",
+  "author": { "name": "Hackyard", "url": "https://hackyard.org" },
+  "homepage": "https://github.com/joinhackyard/source-cut",
+  "repository": "https://github.com/joinhackyard/source-cut",
+  "license": "MIT",
+  "keywords": ["documentary", "video", "hyperframes", "azure-speech", "youtube", "thumbnails"]
+}
