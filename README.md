@@ -11,6 +11,28 @@ It is a set of small tools, an edit engine, playbooks, and Claude Code skills th
 whole process: research, script, narration, document cards, quotes, the edit, review, rendering, thumbnails and the
 upload package. The output is a 6–8 minute 16:9 film and a 50-second 9:16 Short.
 
+## Films made with Source Cut
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://youtu.be/ZvAy5mSSb6E"><img src="https://img.youtube.com/vi/ZvAy5mSSb6E/maxresdefault.jpg" alt="How WhatsApp Served Hundreds of Millions With About 50 People" /></a><br />
+      <b>How WhatsApp Served Hundreds of Millions With About 50 People</b>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://youtu.be/QUQrXtQRFPk"><img src="https://img.youtube.com/vi/QUQrXtQRFPk/maxresdefault.jpg" alt="They Built America's First Real Jet Fighter in 143 Days" /></a><br />
+      <b>They Built America's First Real Jet Fighter in 143 Days</b>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://youtu.be/QEiXUMz7bR8"><img src="https://img.youtube.com/vi/QEiXUMz7bR8/maxresdefault.jpg" alt="Fired From His Own Company: The Steve Jobs Comeback" /></a><br />
+      <b>Fired From His Own Company: The Steve Jobs Comeback</b>
+    </td>
+  </tr>
+</table>
+
+Watch them for the edit style: document cards with the marker on the spoken words, credited archive clips and photos,
+chapter cards, and the three-lesson close. More on the [Hackyard YouTube channel](https://www.youtube.com/@Hackyard).
+
 ## What a Source Cut film looks like
 
 - **Document cards.** When the narrator says "$47.2 billion in rent it had promised to pay", the S-1 is on screen and a
