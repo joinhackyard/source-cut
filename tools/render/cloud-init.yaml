@@ -1,0 +1,9 @@
+#cloud-config
+# Render VM: Docker and rsync only. Build the hyperframes-runner image after first boot (see docs/setup.md).
+# Replace "render" with the login user you create the VM with.
+package_update: true
+packages: [docker.io, rsync, python3]
+runcmd:
+  - usermod -aG docker render
+  - systemctl enable --now docker
+  - mkdir -p /home/render/videos && chown render:render /home/render/videos
